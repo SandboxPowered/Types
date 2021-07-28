@@ -1,7 +1,7 @@
 type GenericEvent = (...args: any) => void;
 type EmptyEvent = () => void;
 
-type EmptyEvents = "onLoad" | "onUnload"
+type EmptyEvents = "onResourceLoad" | "onResourceUnload"
 
 type EventType<T extends string> = T extends EmptyEvents ? EmptyEvent : GenericEvent
 
