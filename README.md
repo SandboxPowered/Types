@@ -11,4 +11,5 @@
 <p align="center">  
     <a href="https://discord.gg/fTZSX9Y7uz"><img src="https://img.shields.io/discord/752614300413329510.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>  
     <a href="https://github.com/SandboxPowered/Types/graphs/contributors"><img src="https://img.shields.io/github/contributors/SandboxPowered/Types.svg?style=for-the-badge&logo=github" alt="Contributors"/></a>  
+    <a href="https://www.npmjs.com/package/@sandboxpowered/api"><img src="https://img.shields.io/npm/v/@sandboxpowered/api?color=red&logo=npm&style=for-the-badge" alt="NPM"/></a>  
 </p>
