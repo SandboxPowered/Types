@@ -7,10 +7,6 @@ type EventType<T extends string> = T extends EmptyEvents ? EmptyEvent : GenericE
 
 type EventArgsType<T extends string> = T extends EmptyEvents ? [] : any[]
 
-type ValidModules = "core"
-
-type Module<T extends ValidModules> = T extends "core" ? SandboxAPI : never
-
 interface SandboxAPI {
     registerNetEvent(event: string): void
 
@@ -24,5 +20,4 @@ interface SandboxAPI {
     saveResourceFile(file: string, content: string): boolean
 }
 
-
-declare function loadModule<T extends ValidModules>(module: T): Module<T>
+declare const sandbox: SandboxAPI
