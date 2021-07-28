@@ -1,0 +1,16 @@
+{
+  "name": "@sandboxpowered/api",
+  "types": "./index.d.ts",
+  "version": "0.1.0",
+  "description": "Type definitions for Sandbox 2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandboxpowered/types.git"
+  },
+  "author": "SandboxPowered",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandboxpowered/types/issues"
+  },
+  "homepage": "https://github.com/sandboxpowered/types#readme"
+}
