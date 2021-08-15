@@ -1,9 +1,11 @@
+/// <reference path="recipes.d.ts" />
+
 type GenericEvent = (...args: any) => void;
 type EmptyEvent = () => void;
 
 type EmptyEvents = "onResourceLoad" | "onResourceUnload"
 
-type EventType<T extends string> = T extends EmptyEvents ? EmptyEvent : GenericEvent
+type EventType<T extends string> = T extends "recipes" ? RecipeEvent : T extends EmptyEvents ? EmptyEvent : GenericEvent
 
 type EventArgsType<T extends string> = T extends EmptyEvents ? [] : any[]
 
